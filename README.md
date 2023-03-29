@@ -54,15 +54,16 @@ The code and models will be released soon.
 # Results on plain models
 
 ### Classification results on ImageNet-1K with MAE pretrained models
-| model | resolution | acc@1 | Pretrained |
-| :---: | :---: | :---: | :---: | :---: |
-| Window | ViT-B | 224x224 | 81.2 | \ | 
-| Shifted window | ViT-B | 224x224 | 82.0 | \ |
-| Quadrangle | ViT-B | 224x224 | 82.9 | Coming soon |
+| model | resolution | acc@1 | Weights & Logs |
+| :---: | :---: | :---: | :---: |
+| ViT-B + Window attn | 224x224 | 81.2 | \ | 
+| ViT-B + Shifted window | 224x224 | 82.0 | \ |
+| QFormer<sub>p</sub>-B | 224x224 | 82.9 | Coming soon |
 
 ### Detection results on COCO with MAE pretrained models and the Mask RCNN detector, following <a href="https://arxiv.org/abs/2203.16527">ViTDet</a>
+
 | model | box mAP | mask mAP | Params | Weights & Logs |
-| :---: | :---: | :---: | :---: | :---: | 
+| :---: | :---: | :---: | :---: | :---: |
 | ViTDet-B | 51.6 | 45.9 | 111M | \ |
 | QFormer<sub>p</sub>-B | 52.3 | 46.6 | 111M | Coming soon |
 
