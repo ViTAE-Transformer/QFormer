@@ -1,10 +1,14 @@
-<h1 align="left">[Arxiv 2022] Vision Transformer with Quadrangle Attention <a href="https://arxiv.org/abs/2303.15105"><img src="https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg" ></a></h1> 
-
+<h1 align="center">[Arxiv 2022] Vision Transformer with Quadrangle Attention<a href="https://arxiv.org/abs/2303.15105"><img src="https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg" ></a></h1>
 <p align="center">
-  <a href="#updates">Updates</a> |
-  <a href="#introduction">Introduction</a> |
+<h4 align="center">This is the official repository of the paper <a href="https://arxiv.org/abs/2303.15105">Vision Transformer with Quadrangle Attention</a>.</h4>
+<h5 align="center"><em>Qiming Zhang, Jing Zhang, Yufei Xu, and Dacheng Tao</em></h5>
+<p align="center">
+  <a href="#news">News</a> |
+  <a href="#abstract">Abstract</a> |
+  <a href="#method">Method</a> |
+  <a href="#usage">Usage</a> |
   <a href="#results">Results</a> |
-  <a href="#statement">Statement</a> |
+  <a href="#statement">Statement</a>
 </p>
 
 # Current applications
@@ -18,15 +22,16 @@
 > **Human Pose**: Will be released soon
 
 
-# Updates
+# News
 
 ***27/03/2023***
 - The paper is post on arxiv! The code will be made public available once cleaned up.
 
-# Introduction
+# Abstract
 
 <p align="left">This repository contains the code, models, test results for the paper <a href="https://arxiv.org/abs/2303.15105">Vision Transformer with Quadrangle Attention</a>, which is an substantial extention of our ECCV 2022 paper <a href="https://arxiv.org/pdf/2204.08446.pdf">VSA</a>. We extends the window-based attention to a general quadrangle formulation and propose a novel quadrangle attention. We employs an end-to-end learnable quadrangle regression module that predicts a transformation matrix to transform default windows into target quadrangles for token sampling and attention calculation, enabling the network to model various targets with different shapes and orientations and capture rich context information. With minor code modifications and negligible extra computational cost, our QFormer outperforms existing representative (hierarchical and plain) vision transformers on various vision tasks, including classification, object detection, semantic segmentation, and pose estimation.
 
+# Method
 <figure>
 <img src="figs/opening.jpg">
 <figcaption align = "center"><b>Fig.1 - The comparison of the current design (hand-crafted windows) and Quadrange attention.</b></figcaption>
