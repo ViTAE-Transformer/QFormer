@@ -190,7 +190,7 @@ python ./main.py \
 | Swin-T | 224x224 | 81.2 | \ | \ | \ |
 | DW-T | 224x224 | 82.0 | \ | \ | \ |
 | Focal-T | 224x224 | 82.2 | 95.9 |
-| QFormer<sub>h</sub>-T | 224x224 | 82.5 | 96.2 | 87.5 | [model]() & [logs](logs/QFormer-T.txt) |
+| QFormer<sub>h</sub>-T | 224x224 | 82.5 | 96.2 | 87.5 | [model](https://1drv.ms/u/s!AimBgYV7JjTlgcoM6jhtunQzDKSzTQ?e=rVap2P) & [logs](logs/QFormer-T.txt) |
 | Swin-S | 224x224 | 83.2 | 96.2 | \ | \ |
 | Focal-S | 224x224 | 83.5 | 96.2 | \ | \ |
 | QFormer<sub>h</sub>-S | 224x224 | 84.0 |  96.8 | 88.6 | [model]() & [logs](logs/QFormer-S.txt) |
