@@ -1,0 +1,4 @@
+output/*
+wandb/*
+log/*
+*.pyc

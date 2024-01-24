@@ -1,0 +1,15 @@
+MODEL:
+  TYPE: qformer
+  NAME: qformer_tiny_patch4_window7_384
+  DROP_PATH_RATE: 0.2
+  SWIN:
+    EMBED_DIM: 96
+    DEPTHS: [ 2, 2, 6, 2 ]
+    NUM_HEADS: [ 3, 6, 12, 24 ]
+    WINDOW_SIZE: 7
+  QuadrangleAttention:
+    rpe: 'v1'
+TRAIN:
+  coords_lambda: 0.1
+DATA:
+  IMG_SIZE: 384
