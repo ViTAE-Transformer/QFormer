@@ -193,11 +193,11 @@ python ./main.py \
 | QFormer<sub>h</sub>-T | 224x224 | 82.5 | 96.2 | 87.5 | [model](https://1drv.ms/u/s!AimBgYV7JjTlgcoM6jhtunQzDKSzTQ?e=rVap2P) & [logs](logs/QFormer-T.txt) |
 | Swin-S | 224x224 | 83.2 | 96.2 | \ | \ |
 | Focal-S | 224x224 | 83.5 | 96.2 | \ | \ |
-| QFormer<sub>h</sub>-S | 224x224 | 84.0 |  96.8 | 88.6 | [model]() & [logs](logs/QFormer-S.txt) |
+| QFormer<sub>h</sub>-S | 224x224 | 84.0 |  96.8 | 88.6 | [model](https://1drv.ms/u/s!AimBgYV7JjTlgcoN7NjoE1Pza3dU2A?e=XBh2tl) & [logs](logs/QFormer-S.txt) |
 | Swin-B | 224x224 | 83.4 | 96.5 | \ | \ |
 | DW-B | 224x224 | 83.4 | \ | \ | \ |
 | Focal-B | 224x224 | 83.8 | 96.5 | \ | \ |
-| QFormer<sub>h</sub>-B | 224x224 | 84.1 |  96.8 | 88.7 | [model]() & [logs](logs/QFormer-B.txt) |
+| QFormer<sub>h</sub>-B | 224x224 | 84.1 |  96.8 | 88.7 | [model](https://1drv.ms/u/s!AimBgYV7JjTlgcoOX-Wc-CQU_9QDsg?e=xCrdE4) & [logs](logs/QFormer-B.txt) |
 
 
 ## Object Detection Results
