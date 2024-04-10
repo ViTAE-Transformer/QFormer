@@ -208,16 +208,16 @@ python ./main.py \
 | Swin-T | ImageNet-1K | 1x | 43.7 | 39.8 | 48M | \ | \ | \ |
 | DAT-T | ImageNet-1K | 1x | 44.4 | 40.4 | 48M | \ | \ | \ |
 | Focal-T | ImageNet-1K | 1x | 44.8 | 41.0 | 49M | \ | \ | \ |
-| QFormer<sub>h</sub>-T | ImageNet-1K | 1x | 45.9 | 41.5 | 49M | Coming soon | Coming soon | Coming soon |
+| QFormer<sub>h</sub>-T | ImageNet-1K | 1x | 45.9 | 41.5 | 49M | [config](https://github.com/RogerZhangzz/qformer-hierarchical-detection/tree/main/configs/swin/mask_rcnn_qformer_tiny_patch4_window7_mstrain_480-800_adamw_1x_coco.py) | [log](https://github.com/RogerZhangzz/qformer-hierarchical-detection/tree/main/logs/mask_rcnn_qformer_tiny_patch4_window7_mstrain_480-800_adamw_1x_coco.log) | [onedrive](https://1drv.ms/f/s!AimBgYV7JjTlgcp07_aXUvQI1QHbHQ?e=QrE47h) |
 | Swin-T | ImageNet-1K | 3x | 46.0 | 41.6 | 48M | \ | \ | \ |
 | DW-T | ImageNet-1K | 3x | 46.7 | 42.4 | 49M | \ | \ | \ |
 | DAT-T | ImageNet-1K | 3x | 47.1 | 42.4 | 48M | \ | \ | \ |
 | DAT-T | ImageNet-1K | 3x | 47.1 | 42.4 | 48M | \ | \ | \ |
-| QFormer<sub>h</sub>-T  | ImageNet-1K | 3x | 47.5 | 42.7 | 49M | Coming soon | Coming soon | Coming soon |
+| QFormer<sub>h</sub>-T  | ImageNet-1K | 3x | 47.5 | 42.7 | 49M | [config](https://github.com/RogerZhangzz/qformer-hierarchical-detection/tree/main/configs/swin/mask_rcnn_qformer_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco.py) | [log](https://github.com/RogerZhangzz/qformer-hierarchical-detection/tree/main/logs/mask_rcnn_qformer_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco.log) | [onedrive](https://1drv.ms/f/s!AimBgYV7JjTlgcp1T-I8qPj5r0_kGQ?e=gSPRpm) |
 | Swin-S | ImageNet-1K | 3x | 48.5 | 43.3 | 69M | \ | \ | \ |
 | Focal-S | ImageNet-1K | 3x | 48.8 | 43.8 | 71M | \ | \ | \ |
 | DAT-S | ImageNet-1K | 3x | 49.0 | 44.0 | 69M | \ | \ | \ |
-| QFormer<sub>h</sub>-S  | ImageNet-1K | 3x | 49.5 | 44.2 | 49M | Coming soon | Coming soon | Coming soon |
+| QFormer<sub>h</sub>-S  | ImageNet-1K | 3x | 49.5 | 44.2 | 49M | [config](https://github.com/RogerZhangzz/qformer-hierarchical-detection/tree/main/configs/swin/mask_rcnn_qformer_small_patch4_window7_mstrain_480-800_adamw_3x_coco.py) | [log](https://github.com/RogerZhangzz/qformer-hierarchical-detection/tree/main/logs/mask_rcnn_qformer_small_patch4_window7_mstrain_480-800_adamw_3x_coco.log) | [onedrive](https://1drv.ms/f/s!AimBgYV7JjTlgcpzjvjlHZgb98ovqA?e=CFrdJA) |
 
 
 ### Cascade Mask R-CNN
@@ -226,11 +226,11 @@ python ./main.py \
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
 | Swin-T | ImageNet-1K | 1x | 48.1 | 41.7 | 86M | \ | \ | \ |
 | DAT-T | ImageNet-1K | 1x | 49.1 | 42.5 | 86M | \ | \ | \ |
-| QFormer<sub>h</sub>-T | ImageNet-1K | 1x | 49.8 | 43.0 | 87M | Coming soon | Coming soon | Coming soon |
+| QFormer<sub>h</sub>-T | ImageNet-1K | 1x | 49.8 | 43.0 | 87M | [config](https://github.com/RogerZhangzz/qformer-hierarchical-detection/tree/main/configs/swin/cascade_mask_rcnn_qformer_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_1x_coco.py) | [log](https://github.com/RogerZhangzz/qformer-hierarchical-detection/tree/main/logs/cascade_mask_rcnn_qformer_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_1x_coco.log) | [onedrive](https://1drv.ms/f/s!AimBgYV7JjTlgcsFJx0Df3PlfTeukg?e=BsENkW) |
 | Swin-T | ImageNet-1K | 3x | 50.2 | 43.7 | 86M | \ | \ | \ |
-| QFormer<sub>h</sub>-T | ImageNet-1K | 3x | 51.4 | 44.7 | 87M | Coming soon | Coming soon | Coming soon |
+| QFormer<sub>h</sub>-T | ImageNet-1K | 3x | 51.4 | 44.7 | 87M | [config](https://github.com/RogerZhangzz/qformer-hierarchical-detection/tree/main/configs/swin/cascade_mask_rcnn_qformer_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco.py) | [log](https://github.com/RogerZhangzz/qformer-hierarchical-detection/tree/main/logs/cascade_mask_rcnn_qformer_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_1x_coco.log) | [onedrive](https://1drv.ms/f/s!AimBgYV7JjTlgcsGNhlt6Fd186OAFw?e=pzhiEt) |
 | Swin-S | ImageNet-1K | 3x | 51.9 | 45.0 | 107M | \ | \ | \ |
-| QFormer<sub>h</sub>-S | ImageNet-1K | 3x | 52.8 | 45.7 | 87M | Coming soon | Coming soon | Coming soon |
+| QFormer<sub>h</sub>-S | ImageNet-1K | 3x | 52.8 | 45.7 | 87M | [config](https://github.com/RogerZhangzz/qformer-hierarchical-detection/tree/main/configs/swin/cascade_mask_rcnn_qformer_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco.py) | [log](https://github.com/RogerZhangzz/qformer-hierarchical-detection/tree/main/logs/cascade_mask_rcnn_qformer_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco.log) | [onedrive](https://1drv.ms/f/s!AimBgYV7JjTlgcsEvl0J1X2GBdzAKg?e=DdTBw4) |
 
 
 ## Semantic Segmentation Results for ADE20k
