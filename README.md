@@ -8,7 +8,8 @@
   <a href="#method">Method</a> |
   <a href="#usage">Usage</a> |
   <a href="#results">Results</a> |
-  <a href="#statement">Statement</a>
+  <a href="#statement">Statement</a> |
+  <a href="#citing-qformer-vsa-and-vitae">Citation</a>
 </p>
 
 # Current applications
